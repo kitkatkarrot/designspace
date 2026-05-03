@@ -24,6 +24,10 @@
   --font-weight-semibold: 600;
   --line-height-base: 1.6;
 
+  /* ============================================
+   COLORS
+   ============================================ */
+
   /* --- NEUTRALS --- */
   --clr-neutral-0: #ffffff;
   --clr-neutral-50: #f7f7f6;
@@ -47,16 +51,38 @@
   --clr-warning: #d97706;
   --clr-danger: #dc2626;
 
-  /* --- SEMANTIC ALIASES (use these in components) --- */
-  --color-bg: var(--clr-neutral-0);
-  --color-bg-subtle: var(--clr-neutral-50);
-  --color-bg-muted: var(--clr-neutral-100);
-  --color-border: var(--clr-neutral-200);
-  --color-text: var(--clr-neutral-900);
+  /* ============================================
+   SEMANTIC TOKENS
+   These are the only color tokens components should use.
+   Raw palette tokens (--clr-*) are never used
+   directly in components.
+   ============================================ */
+
+  /* --- Actions --- */
+  --color-action-primary: var(--clr-blue-600);
+  --color-action-primary-hover: var(--clr-blue-700);
+  --color-action-primary-subtle: var(--clr-blue-50);
+  --color-action-primary-border: var(--clr-blue-100);
+
+  /* --- Text --- */
+  --color-text-default: var(--clr-neutral-900);
   --color-text-muted: var(--clr-neutral-600);
   --color-text-subtle: var(--clr-neutral-400);
-  --color-accent: var(--clr-blue-600);
-  --color-accent-hover: var(--clr-blue-700);
+  --color-text-onaction: var(--clr-neutral-0);
+
+  /* --- Surfaces --- */
+  --color-surface-default: var(--clr-neutral-0);
+  --color-surface-subtle: var(--clr-neutral-50);
+  --color-surface-muted: var(--clr-neutral-100);
+
+  /* --- Borders --- */
+  --color-border-default: var(--clr-neutral-200);
+  --color-border-strong: var(--clr-neutral-400);
+
+  /* --- Feedback --- */
+  --color-feedback-success: var(--clr-success);
+  --color-feedback-warning: var(--clr-warning);
+  --color-feedback-danger: var(--clr-danger);
 
   /* --- SPACING (4px base unit) --- */
   --sp-1: 4px;
