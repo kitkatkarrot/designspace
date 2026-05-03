@@ -1,0 +1,85 @@
+/* ============================================
+   DESIGN SYSTEM — TOKENS
+   Author: Kate Chambers
+   Font: Geist
+   ============================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap");
+
+:root {
+  /* --- FONTS --- */
+  --font-base: "Geist", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+
+  /* --- TYPE SCALE --- */
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --line-height-base: 1.6;
+
+  /* --- NEUTRALS --- */
+  --clr-neutral-0: #ffffff;
+  --clr-neutral-50: #f7f7f6;
+  --clr-neutral-100: #ebebea;
+  --clr-neutral-200: #d4d4d3;
+  --clr-neutral-400: #a3a3a2;
+  --clr-neutral-600: #737372;
+  --clr-neutral-800: #3d3d3c;
+  --clr-neutral-900: #141413;
+
+  /* --- ACCENT — ELECTRIC BLUE --- */
+  --clr-blue-50: #eff6ff;
+  --clr-blue-100: #bfdbfe;
+  --clr-blue-300: #60a5fa;
+  --clr-blue-600: #2563eb;
+  --clr-blue-700: #1d4ed8;
+  --clr-blue-900: #1e3a8a;
+
+  /* --- SEMANTIC --- */
+  --clr-success: #16a34a;
+  --clr-warning: #d97706;
+  --clr-danger: #dc2626;
+
+  /* --- SEMANTIC ALIASES (use these in components) --- */
+  --color-bg: var(--clr-neutral-0);
+  --color-bg-subtle: var(--clr-neutral-50);
+  --color-bg-muted: var(--clr-neutral-100);
+  --color-border: var(--clr-neutral-200);
+  --color-text: var(--clr-neutral-900);
+  --color-text-muted: var(--clr-neutral-600);
+  --color-text-subtle: var(--clr-neutral-400);
+  --color-accent: var(--clr-blue-600);
+  --color-accent-hover: var(--clr-blue-700);
+
+  /* --- SPACING (4px base unit) --- */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+  --sp-12: 48px;
+  --sp-16: 64px;
+
+  /* --- BORDER RADIUS --- */
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  /* --- SHADOWS --- */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+  /* --- TRANSITIONS --- */
+  --transition-fast: 120ms ease;
+  --transition-base: 200ms ease;
+}
